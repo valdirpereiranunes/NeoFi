@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-green: #9DFF3A;
+    --color-white: #E5E5E5;
+    --color-gray1: #999999;
+    --color-gray2: #4D4D4D;
+    --color-gray3: #2E2E2E;
+    --color-gray4: #0F0F0F;
+
+    --font-size-title1: 64px;
+    --font-size-title2: 48px;
+    --font-size-title3: 40px;
+    --font-size-subtitle: 20px;
+    --font-size-button: 18px;
+    --font-size-text1: 16px;
+    --font-size-text2: 14px;
+    --font-size-caption: 12px;
+
+    --font-family-alexandria: "Alexandria", sans-serif;
+
+
+}
