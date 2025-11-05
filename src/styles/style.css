@@ -116,5 +116,25 @@ h1{
     color: var(--color-white);
     text-decoration: none;
     font-family: var(--font-family-alexandria);
+}
 
+.section-partners{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 40px;
+    align-items: center;
+    background-color: var(--color-gray4);
+
+}
+
+.section-partner h2{
+    color: var(--color-gray1);
+    font-size: var(--font-size-text1);
+    font-family: var(--font-family-alexandria);
+}
+
+.container-images-partners{
+    display: flex;
+    gap: 50px;
 }
