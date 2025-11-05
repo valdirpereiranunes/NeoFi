@@ -138,3 +138,75 @@ h1{
     display: flex;
     gap: 50px;
 }
+
+.section-breakdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0;
+}
+
+.content-breakdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-breakdown span{
+    color: var(--color-green);
+    border: 1px;
+    padding: 12px;
+    border-radius: 24px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);    
+}
+
+.content-breakdown h2{
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+    color: var(--color-white);
+}
+
+.content-breakdown p{
+    font-family: var(--font-family-inter);
+    color: var(--color-gray1);
+    width: 572px;
+    text-align: center;
+}
+
+.container-cards-breakdown{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-breakdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 48px 36px;
+    background-color: #FFFFFF04;
+}
+
+.card-breakdown div{
+    display: flex;
+    flex-direction: column;
+    gap: 16;
+}
+.card-breakdown div h3{
+    color: var(--color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+}
+
+.card-breakdown div p{
+    color: var(--color-gray1);
+    font-size: var(--font-size-text1);
+    font-family: var(--font-family-alexandria);
+    width: 338px;
+}
+
